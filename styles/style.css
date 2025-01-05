@@ -7,7 +7,7 @@
 .img{
     width: 100%;
     min-height: 100vh;
-    background-image: url(/image/pexels-asphotograpy-96627.jpg);
+    background-image: url(../image/pexels-asphotograpy-96627.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
