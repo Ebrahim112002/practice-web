@@ -1,20 +1,93 @@
 *{
     margin: 0;
-}
-#img{
-    background-image: url(/image/pexels-asphotograpy-96627.jpg);
-    background-size: cover; 
-    background-repeat: none;
-    min-height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
     
 }
-#htt{
+.img{
     width: 100%;
-    position: absolute;
-    top: 50%;
-
-    text-align: center;
-    color: black;
+    min-height: 100vh;
+    background-image: url(/image/pexels-asphotograpy-96627.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo{
+    min-height: 5%;
+    width: 5%;
+}
+nav{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
 
 }
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+/* .ancor{
+    padding-right: 40px;
+    justify-content: space-between;
+} */
 
+.login{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+.login-sign{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+
+    
+}
+.sign{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.content h1{
+    font-size: 50px;
+    color: black
+
+}
+.content p{
+    margin: 10px 0 30px;
+}
