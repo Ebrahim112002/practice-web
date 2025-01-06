@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.img{
+    background-image: url(../image/pexels-asphotograpy-96627.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+
+}
+ div Header h1{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+form{
+    padding: 20px;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 35%;
+    height: auto; /* Adjust height as needed */
+    padding: 20px; /* Add inner spacing */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+}
+form label, input{
+    padding: 5px;
+    text-align: justify;
+    margin-left: 100px;
+
+}
+label{
+    font-size: 20px;
+    margin: 5px;
+}
+.bt{
+    padding: 5px;
+    margin-top: 10px;
+}
+.m{
+    margin-left: 0;
+}
